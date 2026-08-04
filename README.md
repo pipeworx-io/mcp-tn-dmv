@@ -3,6 +3,8 @@
 Tennessee Department of Safety and Homeland Security: the 186 driver service centers with their
 per-location service capabilities, plus the state's impaired-driving crash file. Keyless.
 
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1394+ live data sources.
+
 ## Why Tennessee gets its own pack
 
 This came out of splitting a single multiplexed `us-dmv` tool into one pack per state agency.
@@ -82,7 +84,7 @@ Add to your MCP client (Claude Desktop, Cursor, Windsurf, etc.):
 }
 ```
 
-Or connect to the full Pipeworx gateway for access to all 1392+ data sources:
+Or connect to the full Pipeworx gateway for access to all 1394+ data sources:
 
 ```json
 {
@@ -99,14 +101,14 @@ Or connect to the full Pipeworx gateway for access to all 1392+ data sources:
 Instead of calling tools directly, you can ask questions in plain English:
 
 ```
-ask_pipeworx({ question: "your question about Tennessee Driver Services data" })
+ask_pipeworx({ question: "your question about Tn Dmv data" })
 ```
 
 The gateway picks the right tool and fills the arguments automatically.
 
 ## More
 
-- [All tools and guides](https://github.com/pipeworx-io/examples)
+- [Docs and guides](https://pipeworx.io/docs)
 - [pipeworx.io](https://pipeworx.io)
 
 ## License
