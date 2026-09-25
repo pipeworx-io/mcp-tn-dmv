@@ -1,20 +1,32 @@
 {
   "name": "@pipeworx/mcp-tn-dmv",
-  "version": "0.1.0",
-  "description": "Tennessee driver service centers with REAL ID and CDL testing, plus crash statistics",
+  "version": "0.1.1",
+  "description": "Tennessee DMV MCP — Department of Safety and Homeland Security: the 186 driver service",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
+  "bin": {
+    "mcp-tn-dmv": "bin/cli.js"
+  },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "tn-dmv"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pipeworx-io/mcp-tn-dmv"
+    "url": "git+https://github.com/pipeworx-io/mcp-tn-dmv.git"
   },
   "scripts": {
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
   "devDependencies": {
-    "typescript": "^5.7.0"
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-56a6122751f2ed99220ba4277c2c0d04237660fa503b7f050b472f0c83d95cbc",
+    "sourceCommit": "b0fb3c31386cf0256dcf1e2f1b3440435a87ec35"
   }
 }

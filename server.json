@@ -1,9 +1,9 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.pipeworx-io/tn-dmv",
-  "title": "Tennessee Driver Services",
-  "description": "Tennessee driver service centers with REAL ID and CDL testing, plus crash statistics",
-  "version": "0.1.0",
+  "title": "Tn Dmv",
+  "description": "Tennessee DMV MCP — Department of Safety and Homeland Security: the 186 driver service",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/tn-dmv",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-tn-dmv",
