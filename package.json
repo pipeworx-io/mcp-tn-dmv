@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-tn-dmv",
-  "version": "0.1.1",
-  "description": "Tennessee DMV MCP — Department of Safety and Homeland Security: the 186 driver service",
+  "version": "0.2.0",
+  "description": "Tennessee DMV MCP — Department of Safety and Homeland Security: the 186 driver service centers with their per-center service capabilities, and the state's impaired-driving crash file. Keyless.",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-tn-dmv": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "tn-dmv"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-tn-dmv.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/tn-dmv",
   "pipeworx": {
-    "sourceHash": "v1-56a6122751f2ed99220ba4277c2c0d04237660fa503b7f050b472f0c83d95cbc",
-    "sourceCommit": "b0fb3c31386cf0256dcf1e2f1b3440435a87ec35"
+    "mode": "gateway",
+    "slug": "tn-dmv",
+    "gatewaySlug": "tn-dmv",
+    "sourceHash": "v1-14a9333eeeefce5fb31efebd58e38f71595b7f6baf683b827c45c8a2ac38b300",
+    "sourceCommit": "f47d581679e1e887373df51ba623f891fbe4c464"
   }
 }
