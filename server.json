@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/tn-dmv",
   "title": "Tn Dmv",
   "description": "Tennessee DMV MCP — Department of Safety and Homeland Security: the 186 driver service centers…",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "websiteUrl": "https://pipeworx.io/packs/tn-dmv",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-tn-dmv",

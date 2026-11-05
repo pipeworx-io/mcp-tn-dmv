@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-tn-dmv",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Tennessee DMV MCP — Department of Safety and Homeland Security: the 186 driver service centers with their per-center service capabilities, and the state's impaired-driving crash file. Keyless.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "tn-dmv",
     "gatewaySlug": "tn-dmv",
-    "sourceHash": "v1-14a9333eeeefce5fb31efebd58e38f71595b7f6baf683b827c45c8a2ac38b300",
-    "sourceCommit": "f47d581679e1e887373df51ba623f891fbe4c464"
+    "sourceHash": "v1-3ccdde484776362143993d4fefdb9793228c5ebe518fab1ef3e623973f9d1fd7",
+    "sourceCommit": "868e119d526d5409447b7ee2149afba7eb9d2593"
   }
 }
